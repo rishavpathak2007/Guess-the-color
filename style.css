@@ -1,0 +1,103 @@
+span p{
+  display: inline; 
+  padding: 15px 20px;
+  margin-right: 5px;
+  border: 1px solid black;
+  border-radius: 15px;
+  cursor: pointer; 
+  
+}
+
+.light {
+  background-color: white;
+  color: black;  
+  
+}
+.dark {
+  background-color: black;
+  color: white;
+} 
+span{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.color {
+  height: 20px;
+  width: 20px;
+  background-color: orange; 
+  padding: 10px 10px; 
+  margin: 0 20px;   
+} 
+.card{
+  display: flex; 
+  justify-content: center;  
+  margin-left: 400px;
+  font-size: 30px; 
+  background-color: green; 
+  width: 500px; 
+  height: 80px;
+  
+}  
+h1 {
+  display: flex; 
+  justify-content: center; 
+}
+.card span {
+  display: inline;
+}
+
+.color-pallete {
+/*   border: 1px solid black;  */
+  width:  500px; 
+  margin-left:425px;
+  margin-top: 10px;
+}
+.content div {
+/*   border: 1px solid red;  */
+	display: inline-block;
+}
+
+.random-color {
+  height: 50px;
+  width: 50px;
+/*   background-color: orange;  */
+  border-radius:10px; 
+  margin-right: 7px;
+  display:inline-block;
+  
+}
+.color-pallete2 { 
+  width:  500px; 
+  margin-left:425px;
+  margin-top: 10px; 
+} 
+.color-pallete3 { 
+  width:  500px; 
+  margin-left:425px;
+  margin-top: 10px; 
+} 
+.color-pallete4 { 
+  width:  500px; 
+  margin-left:425px;
+  margin-top: 10px; 
+}  
+
+.gameover{ 
+  text-align: center; 
+  font-size: 30px;
+	font-weight: 700;
+  margin-top: 100px;
+
+}
+.play {
+	display: none; 
+  font-size: 20px; 
+  background-color: orange;
+} 
+
+.btn {
+	display: flex; 
+  justify-content: center; 
+  padding-top: 50px; 
+}
